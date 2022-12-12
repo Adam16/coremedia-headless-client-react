@@ -1,0 +1,24 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/.next": true,
+    ".{dev,shadowenv.d}": true,
+    "{build,dist}/": true
+  },
+  "scss.validate": false,
+  "css.validate": false,
+  "search.exclude": {
+    "**/.next": true,
+    "**/node_modules": true,
+    ".{dev,shadowenv.d}": true,
+    "{build,dist}/": true
+  },
+  "cSpell.words": []
+}
