@@ -7,6 +7,7 @@ export default function App() {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
+    console.log({ render: true });
     setIsMounted(true);
   }, []);
 
