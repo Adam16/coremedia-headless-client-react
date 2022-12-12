@@ -10,7 +10,9 @@ export default function App() {
     setIsMounted(true);
   }, []);
 
-  if (!isMounted) return null;
+  if (!isMounted) {
+    return null;
+  }
 
   return <Spark />;
 }
