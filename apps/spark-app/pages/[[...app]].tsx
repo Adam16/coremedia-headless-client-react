@@ -7,8 +7,10 @@ export default function App() {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    console.log({ render: true });
+    console.log({ isMounted });
     setIsMounted(true);
+    console.log({ isMounted });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (!isMounted) {
