@@ -22,6 +22,9 @@ const nextConfig = {
   swcMinify: true,
   // basePath: '/ssr',
   rewrites,
+  compiler: {
+    styledComponents: true,
+  }
 }
 
 module.exports = nextConfig
