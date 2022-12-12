@@ -1,7 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-cd apps/spark-app
+# cd apps/spark-app && pnpm pretty-quick --staged &&
 
-pnpm pretty-quick --staged
-# pnpm lint && pnpm type:check
+pnpm lint && pnpm type:check
