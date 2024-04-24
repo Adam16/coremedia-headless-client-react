@@ -1,4 +1,4 @@
-FROM nginx:1.25.1-alpine
+FROM nginx:1.25.5-alpine
 
 COPY spark/dist /usr/share/nginx/html
 COPY standalone-fragment/dist /usr/share/nginx/html/standalone
