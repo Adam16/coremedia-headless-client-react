@@ -20,7 +20,7 @@
     "@graphql-tools/load": "^7.8.5",
     "@graphql-tools/schema": "^8.5.1",
     "@graphql-tools/stitch": "^8.7.22",
-    "@graphql-tools/url-loader": "^7.16.15",
+    "@graphql-tools/url-loader": "^8.0.0",
     "@graphql-tools/utils": "^8.13.1",
     "@graphql-tools/wrap": "^8.5.1",
     "apollo-server": "^3.11.1",
