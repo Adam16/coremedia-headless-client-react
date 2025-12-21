@@ -11,7 +11,7 @@
   "dependencies": {
     "@apollo/client": "^3.7.1",
     "@coremedia-labs/graphql-layer": "workspace:^2.0.0",
-    "graphql": "^16.6.0",
+    "graphql": "^16.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
